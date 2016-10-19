@@ -19,12 +19,12 @@ this class to your project as a validation provider.
 [coverage]: https://codecov.io/gh/ciricihq/cake-dates-validation
 [license]: https://github.com/ciricihq/cake-dates-validation/blob/master/LICENSE.md
 [releases]: https://github.com/ciricihq/cake-dates-validation/releases
-[downloads]: https://packagist.org/packages/ciricihq/adminlte
+[downloads]: https://packagist.org/packages/ciricihq/cake-dates-validation
 [climate]: https://codeclimate.com/github/ciricihq/cake-dates-validation
 
 [build svg]: https://img.shields.io/travis/ciricihq/cake-dates-validation/master.svg?style=flat-square
 [coverage svg]: https://img.shields.io/codecov/c/github/ciricihq/cake-dates-validation/master.svg?style=flat-square
 [license svg]: https://img.shields.io/github/license/ciricihq/cake-dates-validation.svg?style=flat-square
 [releases svg]: https://img.shields.io/github/release/ciricihq/cake-dates-validation.svg?style=flat-square
-[downloads svg]: https://img.shields.io/packagist/dt/ciricihq/adminlte.svg?style=flat-square
+[downloads svg]: https://img.shields.io/packagist/dt/ciricihq/cake-dates-validation.svg?style=flat-square
 [climate svg]: https://img.shields.io/codeclimate/github/ciricihq/cake-dates-validation.svg?style=flat-square
