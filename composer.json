@@ -19,12 +19,12 @@
         "source": "https://github.com/cirichq/cake-dates-validation"
     },
     "require": {
-        "php": ">=5.4",
+        "php": ">=5.5.9",
         "cakephp/cakephp": "~3.1"
     },
     "require-dev": {
         "cakephp/cakephp-codesniffer": "^2.1",
-        "phpunit/phpunit": "~4.8",
+        "phpunit/phpunit": "~4.8"
     },
     "autoload": {
         "psr-4": {
