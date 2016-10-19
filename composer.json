@@ -1,0 +1,39 @@
+{
+    "name": "cirichq/cake-dates-validation",
+    "description": "A Dates Validation class for CakePHP 3.X",
+    "type": "cakephp-plugin",
+    "license": "GPL-3.0",
+    "keywords": ["cakephp", "validation", "i18n"],
+    "authors": [
+        {
+            "name": "Òscar Casajuana",
+            "email": "oscar@cirici.com"
+        },
+        {
+            "name": "Cirici New Media",
+            "email": "hello@cirici.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/cirichq/cake-dates-validation/issues",
+        "source": "https://github.com/cirichq/cake-dates-validation"
+    },
+    "require": {
+        "php": ">=5.4",
+        "cakephp/cakephp": "~3.1"
+    },
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "^2.1",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cirici\\Validation\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cirici\\Test\\Validation\\": "tests"
+        }
+    }
+}
