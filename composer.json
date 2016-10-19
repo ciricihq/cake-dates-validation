@@ -19,7 +19,7 @@
         "source": "https://github.com/cirichq/cake-dates-validation"
     },
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=5.4",
         "cakephp/cakephp": "~3.1"
     },
     "require-dev": {
