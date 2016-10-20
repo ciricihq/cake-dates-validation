@@ -8,12 +8,23 @@ CakePHP 3.X Date Validation Class
 [![Total downloads][downloads svg]][downloads]
 [![Code climate][climate svg]][climate]
 
-This class adds validation rules related to dates, such as `future` and `past`.
+This class adds validation rules related to dates, such as `future`, `past` or
+`today`.
+
+[Take a look to the class][class] to see all the available methods.
 
 Check out the CakePHP documentation about [custom providers][custom-providers] to know how to include
 this class to your project as a validation provider.
 
+License
+-------
+
+Copyright (c) 2016, [Cirici New Media][cirici] - licensed under [GNU GPL3 license][gnu].
+
 [custom-providers]: http://book.cakephp.org/3.0/en/core-libraries/validation.html#adding-validation-providers
+[class]: src/DatesValidation.php
+[gnu]: LICENSE
+[cirici]: https://cirici.com
 
 [build status]: https://travis-ci.org/ciricihq/cake-dates-validation
 [coverage]: https://codecov.io/gh/ciricihq/cake-dates-validation
