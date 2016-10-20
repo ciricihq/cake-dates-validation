@@ -24,6 +24,7 @@ class DatesValidation extends Validation
 
         return strtotime($check) < time();
     }
+
     /**
      * Checks if the passed date(time) is a past date
      *
@@ -42,5 +43,37 @@ class DatesValidation extends Validation
         }
 
         return strtotime($check) > time();
+    }
+
+    /**
+     * Checks if the passed date(time) is today.
+     *
+     * @param  mixed $check The date to be checked. Can be either string, array
+     *                      or a DateTimeInterface instance.
+     * @return bool
+     */
+    public static function today($check)
+    {
+        if ($check instanceof \DateTimeInterface) {
+            return $check->format('Y-d-m') === date('Y-d-m');
+        }
+
+        if (is_array($check)) {
+            $check = static::_getDateString($check);
+        }
+
+        return date('Y-m-d', strtotime($check)) === date('Y-m-d');
+    }
+
+    /**
+     * Checks if the passed date(time) is not today.
+     *
+     * @param  mixed $check The date to be checked. Can be either string, array
+     *                      or a DateTimeInterface instance.
+     * @return bool
+     */
+    public static function notToday($check)
+    {
+        return !static::today($check);
     }
 }
